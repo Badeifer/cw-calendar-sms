@@ -1,17 +1,17 @@
 # Twilio campaign form: what to paste in each field
 
-Edit the existing campaign (the vetting fee is charged once per campaign). Fill the three `[...]` values first: the published site address, your Twilio number, your support email. The brand name "C.W Calendar" must match the brand on your Twilio brand registration everywhere; the legal name on the pages must match the brand registration too.
+Edit the existing campaign (the vetting fee is charged once per campaign). The values are filled in (legal name Cade Watkins, number (714) 613-1574, support cadebrianwatkins@gmail.com, pages at badeifer.github.io/cw-calendar-sms).
 
 Publish first (GitHub Pages: a public repo, Settings, Pages, Deploy from a branch, main, root), then confirm these open in a private window:
-- `https://[username].github.io/[repo]/` (index.html, the opt-in page)
-- `https://[username].github.io/[repo]/privacy.html`
-- `https://[username].github.io/[repo]/terms.html`
+- `https://badeifer.github.io/cw-calendar-sms/` (index.html, the opt-in page)
+- `https://badeifer.github.io/cw-calendar-sms/privacy.html`
+- `https://badeifer.github.io/cw-calendar-sms/terms.html`
 
 Take a screenshot of the opt-in page and host it somewhere public (a Drive or OneDrive link set to anyone with the link), for the Message Flow field.
 
 ## Campaign description
 ```
-C.W Calendar is a private SMS calendar assistant operated by [legal name]. Two invited users (the account owner and one household member) text natural-language requests to create, update, or look up events on their Google Calendar. The service replies with confirmations, event details, and reminders the user requested. All messages are conversational and transactional. No marketing or promotional content is sent.
+C.W Calendar is a private SMS calendar assistant operated by Cade Watkins. Two invited users (the account owner and one household member) text natural-language requests to create, update, or look up events on their Google Calendar. The service replies with confirmations, event details, and reminders the user requested. All messages are conversational and transactional. No marketing or promotional content is sent.
 ```
 
 ## Sample messages (every one names the brand; number 5 carries the opt-out line)
@@ -27,14 +27,14 @@ C.W Calendar is a private SMS calendar assistant operated by [legal name]. Two i
 Leave all four unticked (no embedded links, no phone numbers, no lending, no age-gated content) as long as the real replies carry none of those.
 
 ## Privacy policy link
-`https://[username].github.io/[repo]/privacy.html`
+`https://badeifer.github.io/cw-calendar-sms/privacy.html`
 
 ## Terms of service link
-`https://[username].github.io/[repo]/terms.html`
+`https://badeifer.github.io/cw-calendar-sms/terms.html`
 
 ## Message Flow
 ```
-End users opt in by texting the keyword START to [Twilio number] from their own mobile phone. The program, keyword, and full disclosures are published at https://[username].github.io/[repo]/ (screenshot: [public link]). Participation is limited to two invited users: the account owner and one household member. After texting START, the user receives a confirmation that identifies C.W Calendar, describes the messages, states that message frequency varies and that msg & data rates may apply, and gives HELP and STOP instructions. Opt-in data is not shared with third parties. Privacy Policy: https://[username].github.io/[repo]/privacy.html. Terms: https://[username].github.io/[repo]/terms.html.
+End users opt in by texting the keyword START to (714) 613-1574 from their own mobile phone. The program, keyword, and full disclosures are published at https://badeifer.github.io/cw-calendar-sms/ (screenshot: https://badeifer.github.io/cw-calendar-sms/opt-in-page.png). Participation is limited to two invited users: the account owner and one household member. After texting START, the user receives a confirmation that identifies C.W Calendar, describes the messages, states that message frequency varies and that msg & data rates may apply, and gives HELP and STOP instructions. Opt-in data is not shared with third parties. Privacy Policy: https://badeifer.github.io/cw-calendar-sms/privacy.html. Terms: https://badeifer.github.io/cw-calendar-sms/terms.html.
 ```
 
 ## Opt-in keywords
@@ -58,7 +58,7 @@ C.W Calendar: You are unsubscribed and will receive no further messages. Reply S
 
 ## Help message
 ```
-C.W Calendar: Private calendar assistant. Support: [support email]. Msg frequency varies. Msg & data rates may apply. Reply STOP to cancel.
+C.W Calendar: Private calendar assistant. Support: cadebrianwatkins@gmail.com. Msg frequency varies. Msg & data rates may apply. Reply STOP to cancel.
 ```
 
 ## Before you submit
