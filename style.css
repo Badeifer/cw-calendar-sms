@@ -1,0 +1,9 @@
+body { font-family: Georgia, "Times New Roman", serif; max-width: 42em; margin: 2em auto; padding: 0 1em; line-height: 1.55; color: #111; background: #fff; }
+h1, h2 { font-family: Arial, Helvetica, sans-serif; line-height: 1.2; }
+nav a { margin-right: 1em; }
+.fill { background: #fff3b8; color: #3a3000; padding: 0 .2em; }
+form { border: 1px solid #999; padding: 1em; margin: 1em 0; }
+label { display: block; margin: .6em 0; }
+input[type=text], input[type=tel] { padding: .4em; width: 100%; max-width: 20em; }
+button { padding: .5em 1em; }
+footer { margin-top: 3em; font-size: .9em; color: #444; }
